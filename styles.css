@@ -36,15 +36,62 @@ body {
   flex-direction: column;
   gap: 1.5rem; /* This creates the space between the 5 cards */
   width: 90%;
-  max-width: 23rem; 
+  max-width: 23rem;
   margin: 2rem 0;
 }
 
 .card {
-  padding: 2rem; /* Space inside each person's card */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 1.5rem; /* Space inside each person's card */
   border-radius: 0.5rem; /* Rounded corners for each card */
-  box-shadow: 0 1.5rem 2.5rem rgba(0, 0, 0, 0.1);
+  box-shadow: 2.5rem 3.75rem 3.125rem -2.5rem rgba(0, 0, 0, 0.1);
 }
+
+.card-violet {
+  background-color: var(--purple-500);
+}
+
+.card-header {
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
