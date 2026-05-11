@@ -31,18 +31,14 @@ body {
   padding: 1.25rem;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
+.testimonial-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem; /* This creates the space between the 5 cards */
+  width: 90%;
+  max-width: 23rem; 
+  margin: 2rem 0;
+}
 
 .attribution {
   font-size: 0.6875rem;
