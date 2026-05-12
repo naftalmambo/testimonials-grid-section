@@ -93,6 +93,8 @@ body {
 }
 
 .name-violet {
+    font-size: 0.8125rem;
+
   text-decoration: none;
   color: var(--white);
   font-weight: 600;
@@ -102,12 +104,11 @@ body {
 
 /* Daniel's Status Typography */
 .status-violet {
-  font-size: 0.8125rem;
+  font-size: 0.6875rem;
   font-weight: 500;
   color: var(--white);
   opacity: 0.6;
   line-height: 1;
-  letter-spacing: -0.6px;
 }
 
 .testimonial-violet {
@@ -166,6 +167,8 @@ body {
 
 /* Typography Look */
 .name-grey {
+    font-size: 0.8125rem;
+
   text-decoration: none;
   color: var(--white);
   font-weight: 600;
@@ -375,7 +378,8 @@ body {
 .name-white-last {
   font-size: 0.8125rem;
   font-weight: 500;
-  color: var(--grey-400);
+  color: var(--grey-500);
+  opacity: 0.9;
   line-height: 1;
   text-decoration: none;
 }
@@ -383,7 +387,7 @@ body {
 .status-white-last {
   font-size: 0.6875rem;
   font-weight: 500;
-  color: var(--grey-500);
+  color: var(--grey-400);
   opacity: 0.5;
   line-height: 1;
 }
@@ -409,7 +413,8 @@ body {
   font-weight: 500;
   line-height: 1.4;
   color: var(--grey-400);
-  word-spacing: 0.15px;
+  word-spacing: 0.2px;
+  letter-spacing: 0.15px ;
   
 }
 
