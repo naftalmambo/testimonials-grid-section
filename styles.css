@@ -484,6 +484,7 @@ body {
     margin: 0 auto;
     /* Overrides mobile stacking */
     flex-direction: row;
+    margin-bottom: 2rem;
   }
 
   .card-violet {
