@@ -56,16 +56,18 @@ Users should be able to:
 
 ### What I learned from this work
 
-This project was a major milestone in my journey toward mastering responsive layouts and web accessibility. Here are the key technical concepts I mastered:
+This project was a big step for me in learning how to make websites look professional. Here is what I practiced:
 
-- **CSS-Grid**
-- **Responsiveness**
+- **Naming things clearly**: Instead of using the same name for every card, I gave them unique names like `card-violet` and `card-white`. This made it easier to change colors and opacities without breaking other parts.
+- **Faded Text Effects**: I learned that using `opacity` (like 0.5 or 0.7) on a dark color makes text look much better on white backgrounds than just picking a light grey color.
+- **Pixel-Perfect Wrapping**: I learned to use `letter-spacing` and `word-spacing` to make the text on Kira's card wrap at exactly 16.5 lines, just like the design.
+- **Asymmetrical Grid**: I learned how to use `grid-column: span 2` and `grid-row: span 2` to create a complex layout where cards have different sizes.
 
 ### Continued development
 
 In future work, I intend to focus on:
 
-- **Clean code:** In this project, I wrote separate styles for each card to make sure I didn't make any mistakes. I know that I can group similar styles (like padding and rounded corners) to make my code shorter, but I wasn't comfortable doing it yet. I am learning how to do this now and will try to use grouping in my future projects to make my code simple and easy to read.
+- **Clean code:** In this project, I wrote separate styles for each card to make sure I didn't make any mistakes. I know that I can group similar styles (like padding, font, color and rounded corners) to make my code shorter, but I wasn't comfortable doing it yet. I am learning how to do it now and will try to use groupings in my future projects to make my code simple and easy to read.
 
 - **Responsiveness:** I believe I've tried my best to make this project as responsive as possible through use of mobile-first approach, while also open to improvements.
 
@@ -73,7 +75,11 @@ In future work, I intend to focus on:
 
 - **Tools Used:** Google AI.
 
-Throughout this project, I used an AI-collaborative workflow to:
+I used AI as a tutor to help me understand the "why" behind the code:
+
+- **Explaining Logic**: Instead of just getting code, I asked the AI to explain how Flexbox and Grid work together.
+- **Debugging**: When my design looked different on Windows than it did on Linux, the AI helped me find the problem with how browsers render fonts and display scaling.
+- **Mastering Best Practices**: The AI taught me to use **REM** instead of pixels for better spacing and how to use **Semantic HTML** (like `blockquote` and `article`) to make my site better for everyone.
 
 ## Open for Opportunities & Collaboration
 
