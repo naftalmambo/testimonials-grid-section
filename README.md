@@ -31,11 +31,9 @@ Users should be able to:
 
 ### Screenshots
 
-
 |              Desktop View              |              Mobile View 1              |              Mobile View 2              |              Mobile View 3              |
 | :------------------------------------: | :-------------------------------------: | :-------------------------------------: | :-------------------------------------: |
 | ![Desktop](images/desktop-version.png) | ![Mobile 1](images/mobile-version1.jpg) | ![Mobile 2](images/mobile-version2.jpg) | ![Mobile 3](images/mobile-version3.jpg) |
-
 
 ### Links
 
@@ -58,17 +56,16 @@ Users should be able to:
 
 ### What I learned from this work
 
-This project was a major milestone in my jour ney toward mastering responsive layouts and web accessibility. Here are the key technical concepts I mastered:
+This project was a major milestone in my journey toward mastering responsive layouts and web accessibility. Here are the key technical concepts I mastered:
 
-
-
+- **CSS-Grid**
+- **Responsiveness**
 
 ### Continued development
 
 In future work, I intend to focus on:
 
-- **Clean code:** In this project, I wrote separate styles for each card to make sure I didn't make any mistakes. I know that I can group similar styles (like padding and rounded corners) to make my code shorter, but I wasn't comfortable doing it yet. I am learning how to do this now and will try to use grouping in my future projects to make my code more "DRY" (Don't Repeat Yourself).
-
+- **Clean code:** In this project, I wrote separate styles for each card to make sure I didn't make any mistakes. I know that I can group similar styles (like padding and rounded corners) to make my code shorter, but I wasn't comfortable doing it yet. I am learning how to do this now and will try to use grouping in my future projects to make my code simple and easy to read.
 
 - **Responsiveness:** I believe I've tried my best to make this project as responsive as possible through use of mobile-first approach, while also open to improvements.
 
@@ -77,7 +74,6 @@ In future work, I intend to focus on:
 - **Tools Used:** Google AI.
 
 Throughout this project, I used an AI-collaborative workflow to:
-
 
 ## Open for Opportunities & Collaboration
 
