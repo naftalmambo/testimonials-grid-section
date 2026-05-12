@@ -69,7 +69,7 @@ In future work, I intend to focus on:
 
 - **Responsiveness:** I believe I've tried my best to make this project as responsive as possible through use of mobile-first approach, while also open to improvements.
 
-### AI Collaborationices.
+### AI Collaboration.
 
 - **Tools Used:** Google AI.
 

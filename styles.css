@@ -417,6 +417,47 @@ body {
   letter-spacing: 0.15px;
 }
 
+
+/* Base Transition for smoothness */
+.name-violet, .name-grey, .name-white, .name-black, .name-white-last {
+  transition: opacity 0.3s ease, color 0.3s ease;
+}
+
+/* Hover & Focus for Dark Cards */
+.card-violet .name-violet:hover,
+.card-grey .name-grey:hover,
+.card-black .name-black:hover,
+.card-violet .name-violet:focus-visible,
+.card-grey .name-grey:focus-visible,
+.card-black .name-black:focus-visible {
+  opacity: 1; 
+  outline: 2px dashed var(--white);
+  outline-offset: 4px;
+}
+
+/* Hover & Focus for Light Cards */
+.card-white .name-white:hover,
+.card-white-last .name-white-last:hover,
+.card-white .name-white:focus-visible,
+.card-white-last .name-white-last:focus-visible {
+  opacity: 1;
+  color: var(--purple-500);
+  outline: 2px dashed var(--grey-500);
+  outline-offset: 4px;
+}
+
+.card-violet, .card-grey, .card-white, .card-black, .card-white-last {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer; 
+}
+
+.card-violet:hover, .card-grey:hover, .card-white:hover, .card-black:hover, .card-white-last:hover {
+  transform: translateY(-5px); /* Subtle upward movement */
+  box-shadow: 0 1.5rem 2.5rem -1rem rgba(0, 0, 0, 0.2); /* Deepens the shadow */
+}
+
+
+
 .attribution {
   font-size: 0.6875rem;
   text-align: center;
@@ -433,6 +474,7 @@ body {
   color: var(--purple-500);
   text-decoration: underline;
 }
+
 
 @media (min-width: 37.5rem) {
   /* 600px */
@@ -486,7 +528,6 @@ body {
     /* Overrides mobile stacking */
     flex-direction: row;
     margin-bottom: 2rem;
-        align-content: start; 
 
   }
 
