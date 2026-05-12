@@ -5,28 +5,24 @@
   --purple-500: hsl(263, 55%, 52%); /* Daniel's Card Background */
 
   /* --- Neutrals (Everyone Else) --- */
-  --white: hsl(0, 0%, 100%);        /* Jeanette & Kira Backgrounds */
-  --grey-100: hsl(214, 17%, 92%);    /* Page Background */
-  --grey-200: hsl(0, 0%, 81%);       /* Jeanette & Kira Avatar Borders */
-  --grey-400: hsl(224, 10%, 45%);    /* Jeanette & Kira Body Text */
-  --grey-500: hsl(217, 19%, 35%);    /* Jonathan's Card Background */
-  --dark-blue: hsl(219, 29%, 14%);   /* Patrick's Card Background */
-  --black: hsl(0, 0%, 7%);           /* Extra contrast (if needed) */
+  --white: hsl(0, 0%, 100%); /* Jeanette & Kira Backgrounds */
+  --grey-100: hsl(214, 17%, 92%); /* Page Background */
+  --grey-200: hsl(0, 0%, 81%); /* Jeanette & Kira Avatar Borders */
+  --grey-400: hsl(224, 10%, 45%); /* Jeanette & Kira Body Text */
+  --grey-500: hsl(217, 19%, 35%); /* Jonathan's Card Background */
+  --dark-blue: hsl(219, 29%, 14%); /* Patrick's Card Background */
+  --black: hsl(0, 0%, 7%); /* Extra contrast (if needed) */
 }
-
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  
 }
-
-
 
 body {
   font-family: 'Barlow Semi Condensed', Arial, sans-serif;
-   font-size: 0.8125rem;
+  font-size: 0.8125rem;
   background-color: var(--grey-100);
   display: flex;
   flex-direction: column;
@@ -34,9 +30,8 @@ body {
   align-items: center;
   min-height: 100vh;
   padding: 2.5rem 1.5rem;
-   -webkit-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
 }
 
 .testimonial-grid {
@@ -44,7 +39,7 @@ body {
   flex-direction: column;
   gap: 1.5rem; /* This creates the space between the 5 cards */
   width: 100%;
-  max-width: 20.4375rem ;
+  max-width: 20.4375rem;
   margin: 2rem 0;
 }
 
@@ -64,40 +59,61 @@ body {
   overflow: hidden;
 }
 
-
 /* Card Container */
 .card-violet {
   background-color: var(--purple-500);
+    background-image: url("images/bg-pattern-quotation.svg");
+  background-repeat: no-repeat;
+  /* Precisely positioned: 80% to the right, 0px from top */
+  background-position: top 0 right 15%; 
 }
 
 .header-violet {
   display: flex;
-  align-items: center;
   gap: 1rem;
   width: 100%;
+  height: 2rem;
+  align-items: center;
+  justify-content: flex-start;
 }
-
 
 /* Daniel's Name Typography */
 .image-violet {
-  width: 2rem;     
+  width: 2rem;
   height: 2rem;
   border-radius: 50%; /* Essential for the circular look */
   border: 2px solid var(--purple-300);
+  flex-shrink: 0; /* Prevents oval shape */
+}
+
+.info-violet {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
 }
 
 .name-violet {
   text-decoration: none;
+  color: var(--white);
+  font-weight: 600;
+  opacity: 0.9;
+  line-height: 1;
 }
-
 
 /* Daniel's Status Typography */
 .status-violet {
   font-size: 0.8125rem;
   font-weight: 500;
   color: var(--white);
-  opacity: 0.5;
+  opacity: 0.6;
   line-height: 1;
+  letter-spacing: -0.6px;
+}
+
+.testimonial-violet {
+  display: flex;
+  flex-direction: column;
+  gap: 1.125rem; /* Exactly the same 18px gap */
 }
 
 /* Daniel's Headline Styling */
@@ -106,6 +122,7 @@ body {
   font-weight: 600;
   line-height: 1.2;
   color: var(--white);
+  letter-spacing: 0.5px;
 }
 
 /* Daniel's Main Quote Styling */
@@ -114,15 +131,285 @@ body {
   font-weight: 500;
   line-height: 1.4;
   color: var(--white);
+  opacity: 0.8;
+}
+
+/* Card Container */
+.card-grey {
+  background-color: var(--grey-500);
+}
+
+/* Header Layout */
+.header-grey {
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+  height: 2rem;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+/* Avatar - Note: No border for Jonathan in the design */
+.image-grey {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+/* Info Wrapper */
+.info-grey {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+/* Typography Look */
+.name-grey {
+  text-decoration: none;
+  color: var(--white);
+  font-weight: 600;
+  opacity: 0.9;
+  line-height: 1;
+}
+
+.status-grey {
+  font-size: 0.8125rem;
+  font-weight: 500;
+  color: var(--white);
+  opacity: 0.6;
+  line-height: 1;
+  letter-spacing: -0.6px;
+}
+
+/* Body Text Container */
+.testimonial-grey {
+  display: flex;
+  flex-direction: column;
+  gap: 1.125rem;
+}
+
+.headline-grey {
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.2;
+  color: var(--white);
+}
+
+.quote-grey {
+  font-size: 0.8125rem;
+  font-weight: 500;
+  line-height: 1.4;
+  color: var(--white);
+  opacity: 0.8;
+}
+
+/* Card Container */
+.card-white {
+  background-color: var(--white);
+}
+
+/* Header Layout */
+.header-white {
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+  height: 2rem;
+  align-items: center;
+}
+
+/* Avatar - Jeanette has no visible border */
+.image-white {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+/* Info Wrapper */
+.info-white {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+/* Typography - Dark Theme */
+.name-white {
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: var(--grey-500); /* Darker text for white background */
+  line-height: 1;
+  text-decoration: none;
+}
+
+.status-white {
+  font-size: 0.8125rem;
+  font-weight: 500;
+  color: var(--grey-500);
+  opacity: 0.5; /* Muted dark text */
+  line-height: 1;
+}
+
+/* Body Text Container */
+.testimonial-white {
+  display: flex;
+  flex-direction: column;
+  gap: 1.125rem;
+}
+
+.headline-white {
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.2;
+  color: var(--grey-500);
+}
+
+.quote-white {
+  font-size: 0.8125rem;
+  font-weight: 500;
+  line-height: 1.4;
+  color: var(--grey-500);
+  opacity: 0.8; /* Softens the body text */
+  letter-spacing: 0.3px;
+}
+
+/* Card Container */
+.card-black {
+  background-color: var(--dark-blue);
+}
+
+/* Header Layout */
+.header-black {
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+  height: 2rem;
+  align-items: center;
+}
+
+/* Avatar - Patrick has a violet-style border */
+.image-black {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  border: 0.125rem solid var(--purple-500); /* Precise 2px violet border */
+  flex-shrink: 0;
+}
+
+/* Info Wrapper */
+.info-black {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+/* Typography - White Theme */
+.name-black {
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: var(--white);
+  line-height: 1;
+  opacity: 0.9;
+  text-decoration: none;
+}
+
+.status-black {
+  font-size: 0.8125rem;
+  font-weight: 500;
+  color: var(--white);
+  opacity: 0.6;
+  line-height: 1;
+}
+
+/* Body Text Container */
+.testimonial-black {
+  display: flex;
+  flex-direction: column;
+  gap: 1.125rem;
+}
+
+.headline-black {
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.2;
+  color: var(--white);
+}
+
+.quote-black {
+  font-size: 0.8125rem;
+  font-weight: 500;
+  line-height: 1.4;
+  color: var(--white);
   opacity: 0.7;
 }
 
+/* Card Container */
+.card-white-last {
+  background-color: var(--white);
+}
 
+/* Header Layout */
+.header-white-last {
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+  height: 2rem;
+  align-items: center;
+}
 
+/* Avatar - Kira has no visible border */
+.image-white-last {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
 
+/* Info Wrapper */
+.info-white-last {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
 
+/* Typography - Dark Theme */
+.name-white-last {
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: var(--grey-500);
+  line-height: 1;
+  text-decoration: none;
+}
 
+.status-white-last {
+  font-size: 0.8125rem;
+  font-weight: 500;
+  color: var(--grey-500);
+  opacity: 0.5;
+  line-height: 1;
+}
 
+/* Body Text Container */
+.testimonial-white-last {
+  display: flex;
+  flex-direction: column;
+  gap: 1.125rem;
+}
+
+.headline-white-last {
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.2;
+  color: var(--grey-500);
+}
+
+.quote-white-last {
+  font-size: 0.8125rem;
+  font-weight: 500;
+  line-height: 1.4;
+  color: var(--grey-500);
+  opacity: 0.7;
+}
 
 
 
