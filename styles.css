@@ -93,7 +93,7 @@ body {
 }
 
 .name-violet {
-    font-size: 0.8125rem;
+  font-size: 0.8125rem;
 
   text-decoration: none;
   color: var(--white);
@@ -167,7 +167,7 @@ body {
 
 /* Typography Look */
 .name-grey {
-    font-size: 0.8125rem;
+  font-size: 0.8125rem;
 
   text-decoration: none;
   color: var(--white);
@@ -199,7 +199,7 @@ body {
 }
 
 .quote-grey {
- font-size: 0.86rem;
+  font-size: 0.86rem;
   font-weight: 500;
   line-height: 1.4;
   color: var(--white);
@@ -339,7 +339,7 @@ body {
 }
 
 .quote-black {
- font-size: 0.86rem;
+  font-size: 0.86rem;
   font-weight: 500;
   line-height: 1.4;
   color: var(--grey-200);
@@ -407,22 +407,19 @@ body {
   letter-spacing: 0.5px;
 }
 
-
 .quote-white-last {
- font-size: 0.86rem;
+  font-size: 0.86rem;
   font-weight: 500;
   line-height: 1.4;
   color: var(--grey-400);
   word-spacing: 0.2px;
-  letter-spacing: 0.15px ;
-  
+  letter-spacing: 0.15px;
 }
 
 .attribution {
   font-size: 0.6875rem;
   text-align: center;
   color: var(--grey-400);
-
 }
 
 .attribution a {
@@ -432,6 +429,83 @@ body {
   transition: color 0.2s ease;
 }
 .attribution a:hover {
-  color: var(--purple-500); /* High contrast violet on hover */
+  color: var(--purple-500);
   text-decoration: underline;
+}
+
+@media (min-width: 37.5rem) {
+  /* 600px */
+  .testimonial-grid {
+    display: grid;
+    /* Two equal columns for a balanced tablet look */
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    gap: 1.5rem;
+    max-width: 43.75rem; /* 700px */
+  }
+
+  /* Daniel: Spans both columns at the top */
+  .card-violet {
+    grid-column: span 2;
+  }
+
+  /* Jonathan & Jeanette: Sit side-by-side in the second row */
+  .card-grey {
+    grid-column: 1;
+  }
+  .card-white {
+    grid-column: 2;
+  }
+
+  /* Patrick: Spans both columns in the third row */
+  .card-black {
+    grid-column: span 2;
+  }
+
+  /* Kira: Spans both columns at the bottom */
+  .card-white-last {
+    grid-column: span 2;
+  }
+}
+
+@media (min-width: 68.75rem) {
+  /* 1100px and up */
+  .testimonial-grid {
+    display: grid;
+    /* Defines 4 columns: each 1 fraction of the 1110px width */
+    grid-template-columns: repeat(4, 1fr);
+    /* Defines 2 rows that adjust height based on the content */
+    grid-template-rows: auto auto;
+    /* 30px gap for the spacious desktop look */
+    gap: 1.875rem;
+    /* 1110px: The standard width for the content area in a 1440px design */
+    max-width: 69.375rem;
+    /* Centers the entire grid horizontally on the 1440px page */
+    margin: 0 auto;
+    /* Overrides mobile stacking */
+    flex-direction: row;
+  }
+
+  .card-violet {
+    grid-column: span 2; /* Occupies Column 1 and 2 */
+  }
+
+  .card-grey {
+    grid-column: 3; /* Occupies Column 3 */
+  }
+
+  .card-white-last {
+    grid-column: 4; /* Far right column */
+    grid-row: span 2; /* Occupies the full height of the grid */
+  }
+
+  .card-white {
+    grid-column: 1; /* Bottom left */
+    grid-row: 2; /* Second row */
+  }
+
+  .card-black {
+    grid-column: span 2; /* Bottom middle (Spans 2 columns) */
+    grid-row: 2; /* Second row */
+  }
 }
