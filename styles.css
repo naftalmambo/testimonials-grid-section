@@ -421,7 +421,17 @@ body {
 .attribution {
   font-size: 0.6875rem;
   text-align: center;
+  color: var(--grey-400);
+
 }
+
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: var(--dark-blue);
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+.attribution a:hover {
+  color: var(--purple-500); /* High contrast violet on hover */
+  text-decoration: underline;
 }
