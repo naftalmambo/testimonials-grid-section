@@ -64,7 +64,7 @@ This project was a big step for me in learning how to make websites look profess
 - **Pixel-Perfect Wrapping**: I learned to use `letter-spacing` and `word-spacing` to make the text on Kira's card wrap at exactly 16.5 lines, just like the design.
 
 #### **Handling Faded Text for a Professional Look**
-I learned that using `opacity` is better than just picking a lighter color. It makes the "Verified Graduate" text look soft and professional on both dark and light backgrounds.
+I learned that using `opacity` is better than just picking a lighter color.
 
 ```css
 .status-violet {
