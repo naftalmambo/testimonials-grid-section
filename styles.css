@@ -30,6 +30,7 @@ body {
   align-items: center;
   min-height: 100vh;
   padding: 2.5rem 1.5rem;
+    overflow-x: hidden; /* Prevents unwanted horizontal scrolling */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -485,6 +486,8 @@ body {
     /* Overrides mobile stacking */
     flex-direction: row;
     margin-bottom: 2rem;
+        align-content: start; 
+
   }
 
   .card-violet {
