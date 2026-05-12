@@ -1,104 +1,113 @@
-# Frontend Mentor - Testimonials grid section
+# Frontend Mentor - Testimonials grid section solution
 
-![Design preview for the Testimonials grid section coding challenge](./preview.jpg)
+### Design preview for the Testimonials grid section solution coding challenge
 
-## Welcome! 👋
+| Desktop Version                                  | Mobile Version                                 |
+| :----------------------------------------------- | :--------------------------------------------- |
+| ![Desktop Screenshot](design/desktop-design.jpg) | ![Mobile Screenshot](design/mobile-design.jpg) |
 
-Thanks for checking out this front-end coding challenge.
+## Table of contents
 
-[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [AI Collaboration](#ai-collaboration)
+- [Open for Opportunities & Collaboration](#open-for-opportunities--collaboration)
+- [Acknowledgments](#acknowledgments)
 
-**To do this challenge, you need a basic understanding of HTML and CSS.**
+## Overview
 
-## The challenge
+### The challenge
 
-Your challenge is to build out this testimonials grid section and get it looking as close to the design as possible.
+Users should be able to:
 
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+- View the optimal layout for the interface depending on their device's screen size
+- See hover and focus states for all interactive elements on the page
 
-Your users should be able to:
+### Screenshots
 
-- View the optimal layout for the site depending on their device's screen size
 
-### Want some support on the challenge? 
+|              Desktop View              |              Mobile View 1              |              Mobile View 2              |              Mobile View 3              |
+| :------------------------------------: | :-------------------------------------: | :-------------------------------------: | :-------------------------------------: |
+| ![Desktop](images/desktop-version.png) | ![Mobile 1](images/mobile-version1.jpg) | ![Mobile 2](images/mobile-version2.jpg) | ![Mobile 3](images/mobile-version3.jpg) |
 
-[Join our community](https://www.frontendmentor.io/community) and ask questions in the **#help** channel.
 
-## Where to find everything
+### Links
 
-Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design. 
+- Solution URL: [GitHub Repository](https://github.com/naftalmambo/testimonials-grid-section)
+- Live Site URL: [Live Demo](https://naftalmambo.github.io/testimonials-grid-section/)
 
-The designs are in JPG static format. Using JPGs will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`. 
+## My process
 
-If you would like the Figma design file to gain experience using professional tools and build more accurate projects faster, you can [subscribe as a PRO member](https://www.frontendmentor.io/pro).
+### Built with
 
-You will find all the required assets in the `/images` folder. The assets are already optimized.
+- **Semantic HTML5 markup**
+- **CSS custom properties**
+- **Grid**
+- **Flexbox**
+- **Mobile-first workflow**
+- **Google Fonts (Barlow Semi Condensed)**
+- **VS Code** - My primary editor for writing clean, structured code.
+- **Linux (Ubuntu/WSL)** - My development environment for a professional, stable workflow.
+- **Windows Browser (Chrome)** - Used for cross-browser testing to ensure its responsive.
 
-There is also a `style-guide.md` file containing the information you'll need, such as color palette and fonts.
+### What I learned from this work
 
-## Using AI coding assistants
+This project was a major milestone in my jour ney toward mastering responsive layouts and web accessibility. Here are the key technical concepts I mastered:
 
-We've included two files to help you if you're using AI coding assistants (like Claude, GitHub Copilot, Cursor, etc.) while working on this challenge:
 
-- `AGENTS.md` - Contains detailed instructions for AI assistants on how to help you with this challenge. It's tailored to this challenge's difficulty level, so the AI will provide guidance appropriate to your learning stage—offering more support for beginner challenges and encouraging more independence on advanced ones.
-- `CLAUDE.md` - A pointer file that directs Claude-based tools to the AGENTS.md instructions.
 
-**How to use them:** You don't need to do anything! These files are automatically detected by most AI coding tools. The AI will read them and adjust its behavior to be a better learning partner—guiding you toward solutions rather than just giving you the answers.
 
-**Note:** These files are designed to help you *learn*, not to do the work for you. The AI is instructed to ask questions, give hints, and explain concepts rather than writing complete solutions.
+### Continued development
 
-## Building your project
+In future work, I intend to focus on:
 
-Feel free to use any workflow that you feel comfortable with. Below is a suggested process, but do not feel like you need to follow these steps:
+- **Clean code:** In this project, I wrote separate styles for each card to make sure I didn't make any mistakes. I know that I can group similar styles (like padding and rounded corners) to make my code shorter, but I wasn't comfortable doing it yet. I am learning how to do this now and will try to use grouping in my future projects to make my code more "DRY" (Don't Repeat Yourself).
 
-1. Initialize your project as a public repository on [GitHub](https://github.com/). Creating a repo will make it easier to share your code with the community if you need help. If you're not sure how to do this, [have a read-through of this Try Git resource](https://try.github.io/).
-2. Configure your repository to publish your code to a web address. This will also be useful if you need some help during a challenge as you can share the URL for your project with your repo URL. There are a number of ways to do this, and we provide some recommendations below.
-3. Look through the designs to start planning out how you'll tackle the project. This step is crucial to help you think ahead for CSS classes to create reusable styles.
-4. Before adding any styles, structure your content with HTML. Writing your HTML first can help focus your attention on creating well-structured content.
-5. Write out the base styles for your project, including general content styles, such as `font-family` and `font-size`.
-6. Start adding styles to the top of the page and work down. Only move on to the next section once you're happy you've completed the area you're working on.
 
-## Deploying your project
+- **Responsiveness:** I believe I've tried my best to make this project as responsive as possible through use of mobile-first approach, while also open to improvements.
 
-As mentioned above, there are many ways to host your project for free. Our recommended hosts are:
+### AI Collaborationices.
 
-- [GitHub Pages](https://pages.github.com/)
-- [Vercel](https://vercel.com/)
-- [Netlify](https://www.netlify.com/)
+- **Tools Used:** Google AI.
 
-You can host your site using one of these solutions or any of our other trusted providers. [Read more about our recommended and trusted hosts](https://www.frontendmentor.io/guides/hosting-your-solution).
+Throughout this project, I used an AI-collaborative workflow to:
 
-## Create a custom `README.md`
 
-We strongly recommend overwriting this `README.md` with a custom one. We've provided a template inside the [`README-template.md`](./README-template.md) file in this starter code.
+## Open for Opportunities & Collaboration
 
-The template provides a guide for what to add. A custom `README` will help you explain your project and reflect on your learnings. Please feel free to edit our template as much as you like.
+This project marks the beginning of my journey toward becoming a professional Web Developer and ultimately a Java Full-Stack. I am currently:
 
-Once you've added your information to the template, delete this file and rename the `README-template.md` file to `README.md`. That will make it show up as your repository's README file.
+- 🔭 **Open for work:** Looking for junior roles or freelance opportunities where I can apply my skills in HTML, CSS, and Javascript(in-progress).
+- 🤝 **Open to contribute:** Interested in collaborating on open-source projects or team-based challenges.
 
-## Submitting your solution
+If you like what you see or have a project you need help with, connect with:
 
-Submit your solution on the platform for the rest of the community to see. Follow our ["Complete guide to submitting solutions"](https://www.frontendmentor.io/guides/how-to-submit-solutions) for tips on how to do this.
+**Author**
 
-Remember, if you're looking for feedback on your solution, be sure to ask questions when submitting it. The more specific and detailed you are with your questions, the higher the chance you'll get valuable feedback from the community.
+- Frontend Mentor - [@naftalmambo](https://frontendmentor.io)
+- LinkedIn - [Naftal Mambo](https://linkedin.com)
+- GitHub - [@naftalmambo](https://github.com)
+- Discord - [devMambo](https://discordapp.com/users/1157321092482994246)
 
-## Sharing your solution
+## Acknowledgments
 
-There are multiple places you can share your solution:
+### 🌟 Appreciation for Frontend Mentor
 
-1. Share your solution page in the **#finished-projects** channel of the [community](https://www.frontendmentor.io/community). 
-2. Share on [X (formerly Twitter)](https://x.com/frontendmentor) and mention **@frontendmentor**, including the repo and live URLs in your post. We'd love to take a look at what you've built and help share it around.
-3. Share your solution on [LinkedIn](https://www.linkedin.com/company/frontend-mentor/).
-4. Blog about your experience building your project. Writing about your workflow, technical choices, and talking through your code is a brilliant way to reinforce what you've learned. Great platforms to write on are [dev.to](https://dev.to/), [Hashnode](https://hashnode.com/), and [CodeNewbie](https://community.codenewbie.org/).
+I want to express my sincere gratitude to **[Frontend Mentor](https://www.frontendmentor.io)** for providing these incredible, real-world challenges that I am sure will enable me to grow to be the developer I aspire.
 
-We provide templates to help you share your solution once you've submitted it on the platform. Please do edit them and include specific questions when you're looking for feedback. 
+This platform will be more than just a place to practice, it will be a gateway to building skills that truly **change lives**.
 
-The more specific you are with your questions the more likely it is that another member of the community will give you feedback.
+By bridging the gap between theory and professional workflows, Frontend Mentor will help me build a rock-solid skill for a future where I can create meaningful digital solutions.
 
-## Got feedback for us?
+## Credits
 
-We love receiving feedback! We're always looking to improve our challenges and our platform. So if you have anything you'd like to mention, please email hi[at]frontendmentor[dot]io.
+While this is a [Frontend Mentor](https://www.frontendmentor.io) challenge, the structural and styling knowledge used to build it was gained through;
 
-This challenge is completely free. Please share it with anyone who will find it useful for practice.
-
-**Have fun building!** 🚀
+- **freeCodeCamp**: For the consistent interactive practice that solidified my HTML and CSS fundamentals.
+- **The Odin Project**: For teaching me how to set up my local working environment and to think like a developer.
