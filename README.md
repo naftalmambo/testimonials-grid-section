@@ -63,6 +63,22 @@ This project was a big step for me in learning how to make websites look profess
 - **Pixel-Perfect Wrapping**: I learned to use `letter-spacing` and `word-spacing` to make the text on Kira's card wrap at exactly 16.5 lines, just like the design.
 - **Asymmetrical Grid**: I learned how to use `grid-column: span 2` and `grid-row: span 2` to create a complex layout where cards have different sizes.
 
+#### Handling Faded Text for a Professional Look**
+I learned that using `opacity` is better than just picking a lighter color. It makes the "Verified Graduate" text look soft and professional on both dark and light backgrounds.
+
+```css
+.status-violet {
+  color: var(--white);
+  opacity: 0.5; /* This makes the text look faded and secondary */
+}
+
+.status-white {
+  color: var(--grey-500);
+  opacity: 0.5;
+}
+```
+
+
 ### Continued development
 
 In future work, I intend to focus on:
