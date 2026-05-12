@@ -34,7 +34,7 @@ Users should be able to:
 
 |              Desktop View              |              Mobile View 1              |              Mobile View 2              |
 | :------------------------------------: | :-------------------------------------: | :-------------------------------------: |
-| ![Desktop](images/desktop-version.png) | ![Mobile 1]() | ![Mobile 2]() |
+| ![Desktop](images/desktop-version.png) | ![Mobile 1](images/mobile-version1.jpg) | ![Mobile 2](images/mobile-version2.jpg) | 
 
 ### Links
 
