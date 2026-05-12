@@ -518,7 +518,7 @@ body {
     /* Defines 4 columns: each 1 fraction of the 1110px width */
     grid-template-columns: repeat(4, 1fr);
     /* Defines 2 rows that adjust height based on the content */
-    grid-template-rows: auto auto;
+    grid-template-rows: repeat(2, min-content);
     /* 30px gap for the spacious desktop look */
     gap: 1.875rem;
     /* 1110px: The standard width for the content area in a 1440px design */
