@@ -1,55 +1,74 @@
 :root {
-  /* Primary Purples */
+  /* --- Primary (Daniel) --- */
   --purple-50: hsl(260, 100%, 95%);
   --purple-300: hsl(264, 82%, 80%);
-  --purple-500: hsl(263, 55%, 52%); /* Daniel's Card */
+  --purple-500: hsl(263, 55%, 52%); /* Daniel's Card Background */
 
-  /* Neutrals */
-  --white: hsl(0, 0%, 100%); /* Jeanette & Kira's Cards */
-  --grey-100: hsl(214, 17%, 92%); /* Likely Page Background */
-  --grey-200: hsl(0, 0%, 81%); /* Avatar Borders */
-  --grey-400: hsl(224, 10%, 45%);
-  --grey-500: hsl(217, 19%, 35%); /* Jonathan's Card */
-  --dark-blue: hsl(219, 29%, 14%); /* Patrick's Card */
-  --black: hsl(0, 0%, 7%);
+  /* --- Neutrals (Everyone Else) --- */
+  --white: hsl(0, 0%, 100%);        /* Jeanette & Kira Backgrounds */
+  --grey-100: hsl(214, 17%, 92%);    /* Page Background */
+  --grey-200: hsl(0, 0%, 81%);       /* Jeanette & Kira Avatar Borders */
+  --grey-400: hsl(224, 10%, 45%);    /* Jeanette & Kira Body Text */
+  --grey-500: hsl(217, 19%, 35%);    /* Jonathan's Card Background */
+  --dark-blue: hsl(219, 29%, 14%);   /* Patrick's Card Background */
+  --black: hsl(0, 0%, 7%);           /* Extra contrast (if needed) */
 }
+
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto; /* Keeps the image from stretching */
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
 body {
   font-family: 'Barlow Semi Condensed', Arial, sans-serif;
-  background-color: var(--grey-200);
+   font-size: 0.8125rem;
+  background-color: var(--grey-100);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  padding: 1.25rem;
+  padding: 2.5rem 1.5rem;
+   -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
 }
 
 .testimonial-grid {
   display: flex;
   flex-direction: column;
   gap: 1.5rem; /* This creates the space between the 5 cards */
-  width: 90%;
-  max-width: 23rem;
+  width: 100%;
+  max-width: 20.4375rem ;
   margin: 2rem 0;
 }
 
 .card {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 1.5rem;
-  padding: 1.5rem; /* Space inside each person's card */
-  border-radius: 0.5rem; /* Rounded corners for each card */
+  align-items: flex-start;
+  gap: 1.125rem;
+  padding: 2rem;
+  border-radius: 0.5rem;
   box-shadow: 2.5rem 3.75rem 3.125rem -2.5rem rgba(0, 0, 0, 0.1);
+  position: relative; /* Necessary for the background quote icon later */
+  overflow: hidden;    /* Ensures nothing leaks outside the rounded corners */
 }
+
 
 .card-violet {
   background-color: var(--purple-500);
@@ -58,38 +77,85 @@ body {
 .card-header {
   display: flex;
   width: 100%;
-  justify-content: flex-start;
+  gap: 1rem;
   align-items: center;
+
+}
+
+.card-header img {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+    flex-shrink: 0;
+
+
+}
+
+.image-border {
+      border: 2px solid var(--purple-300);
+
+}
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+padding: 0;
+gap: 0.25rem;
+
+}
+
+/* Shared typography */
+.user-name {
+  font-size: 0.8125rem;
+  font-weight: 600;
+  line-height: 1;
+  vertical-align: top;
+  text-decoration: none;
 }
 
 
 
+.card-violet .user-status {
+  /* Using your light purple variable with transparency */
+  color: var(--white);
+  opacity: 0.7; 
+    font-size: 0.8125rem;
+  font-weight: 600;
+  vertical-align: bottom;
+  line-height: 1;
+  letter-spacing: -0.7px;
+
+}
+
+.testimonial-body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.headline {
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.4;
+  letter-spacing: 0.3px;
+  color: var(--white);
+}
+
+.quote-text {
+  color: var(--white);
+}
+
+.card-gray {
+  background-color: hsl(217, 19%, 35%);
+   
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.card-white {
+  background-color: var(--white);
+  color: var(--grey-500);
+}
 
 
 
