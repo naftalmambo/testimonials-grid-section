@@ -65,6 +65,59 @@ body {
 }
 
 
+/* Card Container */
+.card-violet {
+  background-color: var(--purple-500);
+}
+
+.header-violet {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+}
+
+
+/* Daniel's Name Typography */
+.image-violet {
+  width: 2rem;     
+  height: 2rem;
+  border-radius: 50%; /* Essential for the circular look */
+  border: 2px solid var(--purple-300);
+}
+
+.name-violet {
+  text-decoration: none;
+}
+
+
+/* Daniel's Status Typography */
+.status-violet {
+  font-size: 0.8125rem;
+  font-weight: 500;
+  color: var(--white);
+  opacity: 0.5;
+  line-height: 1;
+}
+
+/* Daniel's Headline Styling */
+.headline-violet {
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.2;
+  color: var(--white);
+}
+
+/* Daniel's Main Quote Styling */
+.quote-violet {
+  font-size: 0.8125rem;
+  font-weight: 500;
+  line-height: 1.4;
+  color: var(--white);
+  opacity: 0.7;
+}
+
+
 
 
 
